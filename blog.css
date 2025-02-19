@@ -1,0 +1,153 @@
+/* Featured Posts Section */
+.featured-posts {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.featured-posts h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.post-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.post-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 45%;
+}
+
+.post-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.post-item h3 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.post-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.post-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post-item a:hover {
+    text-decoration: underline;
+}
+
+/* Blog Post Section */
+.blog-posts {
+    margin: 50px 0;
+}
+
+.blog-posts h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.post-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.post h3 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.post p {
+    font-size: 16px;
+    color: #555;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Newsletter Section */
+.newsletter {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter form {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #0056b3;
+}
+
+/* Pagination Section */
+.pagination {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pagination a {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    text-decoration: underline;
+}

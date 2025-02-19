@@ -1,0 +1,74 @@
+/* Destinations Section */
+.destination-intro {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.destination-intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.destination-intro p {
+    font-size: 18px;
+    color: #17f103;
+}
+
+.destination-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.destination-item {
+    text-align: center;
+    width: 30%;
+    background-color: #f87409;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.destination-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.destination-item h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.destination-item p {
+    font-size: 16px;
+    color: #490af7;
+}
+
+.destination-item .cta-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #FF6347;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.destination-item .cta-btn:hover {
+    background-color: #FF4500;
+}
+
+/* Responsive Design for Destinations */
+@media (max-width: 768px) {
+    .destination-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination-item {
+        width: 80%;
+    }
+}
